@@ -1,0 +1,22 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "name", "quantity", "price"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Painting name"
+    },
+    "quantity": {
+      "type": "number",
+      "description": "Painting quantity"
+    },
+    "price": {
+      "type": "number",
+      "description": "Painting price"
+    }
+  }
+}
